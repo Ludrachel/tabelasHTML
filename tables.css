@@ -1,0 +1,85 @@
+table , td , th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 30px;
+    text-align: center;
+    padding: 8px;
+  
+}
+
+.tabela1{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 30px;
+}
+.tabela2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 30px;
+    text-align: center;
+}
+
+.tabela3{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabela4 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.topo {
+    vertical-align: top;
+}
+.fundo {
+    vertical-align: bottom;
+}
+
+.tabela5 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.black {
+    background-color: black;
+}
+.white {
+    background-color: white;
+}
+.piece {
+    background-size: cover;
+}
+.piece[data-piece="black"] {
+    background-image: url(imgtables/pecapreta.jpg);
+}
+.piece[data-piece="white"] {
+    background-image: url(imgtables/pecabranca.jpg);
+}
+
+.tabela6  tr:nth-child(even){
+    background-color: beige;
+}
+.tabela6  tr:nth-child(odd){
+    background-color:#345 ;
+    color: white;
+}
+.tabela6 {
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
